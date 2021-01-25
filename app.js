@@ -14,7 +14,7 @@ app.listen(3000, () => {
   console.log('Gif Search listening on port localhost:3000!');
 });
 
-
+app.use(express.static('public'));
   // app.js
   // Require Libraries
   
